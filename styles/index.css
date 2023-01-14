@@ -1,0 +1,70 @@
+/* Global styles */
+* {
+  font-family: "Work Sans", sans-serif;
+  color: #131313;
+  margin: 0;
+}
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  padding-bottom: 30px;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+button {
+  color: white;
+  background-color: #ff900e;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 30px;
+  border: 0;
+  border-radius: 5px;
+  margin: 30px;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+/* <!-- Nav-menu section --> */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 60px 0;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-items ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav-items a {
+  text-decoration: none;
+}
+/* <!-- Section-1 Banner Section --> */
+.banner {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 60px 0;
+}
+
+.banner-container {
+  text-align: center;
+}
+
+.banner-image img {
+  width: 80%;
+}
